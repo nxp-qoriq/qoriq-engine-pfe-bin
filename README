@@ -1,0 +1,7 @@
+This repo contains firmware binaries and the respective source branchnames.
+These pfe binaries must be distributed with Freescale/NXP binary distribution
+license only.
+
+ls1012a/slow_path : This folder contains pfe firmware binaries which supports
+		 slow path only. Created to distribute along with Yocto SDK.
+
