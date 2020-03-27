@@ -3,8 +3,10 @@ These pfe binaries must be distributed with Freescale/NXP binary distribution
 license only.
 
 ls1012a/slow_path : This folder contains Linux pfe firmware binaries which support
-		 slow path only.
+		 slow path only. (Note: These elf files used when the driver compiled
+		 to load the firmware from file system)
 
-ls1012a/u-boot : This folder contains U-Boot pfe firmware itb.
+ls1012a/u-boot : This folder contains pfe firmware itb that contains firmware used by
+		U-boot and Linux driver.
 
 All these firmware binaries are created to be distributed along with Yocto and LSDK.
